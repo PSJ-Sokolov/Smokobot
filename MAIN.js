@@ -1,6 +1,7 @@
 //Configureer de dependencies.
 var Discord = require('discord.io');
 var logger  = require('winston');
+//auth.json zit niet in de repo, omdat je heel veel schade kan aanrichten met deze token.
 var auth    = require('./auth.json');
 
 //Configureer de logger.
