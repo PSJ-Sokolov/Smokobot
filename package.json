@@ -1,0 +1,10 @@
+{
+    "name": "Roosjesdag-Bot",
+    "version": "0.0.0.1",
+    "description": "roosjesdag robot test",
+    "main": "MAIN.js",
+    "author": "PSJ-Sokolov",
+    "dependencies": {
+        "discord.io": "github:woor/discord.io#gateway_v6"
+    }
+}
