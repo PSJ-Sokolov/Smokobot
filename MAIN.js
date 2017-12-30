@@ -34,7 +34,8 @@ Smokobot.on('message', function (user, userID, channelID, message, evt) {
             Smokobot.sendMessage({ to: channelID, message: 'Pong!' });
             break;
         case 'git':
-            Smokobot.sendMessage({ to: channelID, message: 'Ik wordt gehost op:'https://github.com/PSJ-Sokolov/Smokobot.git });
+            Smokobot.sendMessage({ to: channelID, message: "Ik wordt gehost op:https://github.com/PSJ-Sokolov/Smokobot.git"});
+            break;
         default:
             Smokobot.sendMessage({ to: channelID, message: 'Unknown command.' });
         }
